@@ -82,46 +82,8 @@ The algorithms expect input graphs in the following format:
 2. The first number in each line is the node ID
 3. Subsequent numbers are the IDs of its neighbors
 
-### Converting Edge List Format
-
-If your dataset is in edge list format (each line contains a pair of nodes that form an edge), you can convert it using the following Python script:
-
-```python
-import sys
-
-def convert_to_adjacency_list(input_file, output_file):
-    adjacency_list = {}
-    
-    with open(input_file, 'r') as f:
-        for line in f:
-            # Skip comments and empty lines
-            if line.startswith('#') or line.strip() == '':
-                continue
-            
-            parts = line.strip().split()
-            if len(parts) >= 2:
-                u, v = int(parts[0]), int parts[1])
-                
-                if u not in adjacency_list:
-                    adjacency_list[u] = []
-                if v not in adjacency_list:
-                    adjacency_list[v] = []
-                
-                adjacency_list[u].append(v)
-                adjacency_list[v].append(u)  # For undirected graphs
-    
-    with open(output_file, 'w') as f:
-        for node in sorted(adjacency_list.keys()):
-            f.write(f"{node} {' '.join(map(str, adjacency_list[node]))}\n")
-
-if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Usage: python convert.py <input_file> <output_file>")
-        sys.exit(1)
-    
-    convert_to_adjacency_list(sys.argv[1], sys.argv[2])
-    print(f"Converted {sys.argv[1]} to {sys.argv[2]} in adjacency list format.")
-```
+### preprocessing dataset for chiba algorithm:
+- In the .txt file before running... Ensure that all the comments are removed ... And first line contains number of nodes and the 2nd line contains number of edges
 
 ### Datasets Used in This Project
 
