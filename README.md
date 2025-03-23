@@ -8,7 +8,7 @@ This repository contains implementations of several algorithms for maximal cliqu
 |------|-------|-------|
 | Sai Adithya Kothamasu | 2022A7PS0076H | f20220076@hyderabad.bits-pilani.ac.in |
 | R.Ravikanth Reddy | 2022A7PS0068H | f20220068@hyderabad.bits-pilani.ac.in |
-| Chanukya Chowdhury | 2022A7PS0131H | f20220131@hyderabad.bits-pilani.ac.in |
+| Chanukya Chowdhary | 2022A7PS0131H | f20220131@hyderabad.bits-pilani.ac.in |
 | Bharadwaj Thummalapalli | 2022A7PS1537H | f20221537@hyderabad.bits-pilani.ac.in |
 | Mynampati Rithvik Sriranga | 2022A7PS0162H | f20220162@hyderabad.bits-pilani.ac.in |
 
