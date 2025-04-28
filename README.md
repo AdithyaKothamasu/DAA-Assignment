@@ -88,4 +88,11 @@ The algorithms expect input graphs in the following format:
 4. **As-Caida**
 5. **As-733**
 
+### Link for the datasets used 
+1. https://dip.doe-mbi.ucla.edu/dip/Stat.cgi
+2. https://public.websites.umich.edu/~mejn/netdata/
+3. https://snap.stanford.edu/data/ca-HepTh.html
+4. https://snap.stanford.edu/data/as-733.html
+5. https://snap.stanford.edu/data/as-Caida.html
+ 
 
