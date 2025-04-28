@@ -61,7 +61,7 @@ Each algorithm reads the graph data from the file path specified in the source c
 ```bash
 # 1. Change dataset file path in source code to yeast.txt
 
-# 2. Compile ELS implementation
+# 2. Compile ExactAlgo implementation
 g++ -O3 -o exact ExactAlgo.cpp
 
 # 3.Run on WikiVote dataset
@@ -85,6 +85,7 @@ The algorithms expect input graphs in the following format:
 1. **Yeast**:
 2. **Ca-Hepth**
 3. **Net-Science**
-4. **As-Caida**5. **As-733**
+4. **As-Caida**
+5. **As-733**
 
 
